@@ -5,7 +5,9 @@ import java.util.ArrayList;
 public class EntirePascalTriangle {
 
     public static void main(String[] args) {
-        System.out.println(printPascal(7));
+        for (ArrayList<Long> row : printPascal(12)) {
+            System.out.println(row);
+        }
 
     }
 
